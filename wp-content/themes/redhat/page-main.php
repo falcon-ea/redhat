@@ -39,7 +39,7 @@ get_header();
   </div>
 </section>
 <section class="result" id="result">
-  <h2 class="result__title">Результаты наших клиентов</h2>
+  <h2 class="result__title"><?php the_field('result_title', 'options'); ?></h2>
   <div class="owl-carousel owl-theme result__carousel">
     <div class="r-item">
       <div class="container">
